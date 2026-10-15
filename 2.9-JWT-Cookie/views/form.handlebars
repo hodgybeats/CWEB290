@@ -1,0 +1,14 @@
+<h2>Upload a File</h2>
+<!-- SUPER SUPER IMPORTANT - must specify enctype="multipart/form-data" to upload file-->
+<form action="/login" method="post">
+<!-- SUPER SUPER IMPORTANT specify name attribute - otherwise not sent to server-->
+  <input type="text" name="username" placeholder="username"/>
+  <input type="password" name="password" />
+  <button type="submit">Login</button>
+</form>
+
+<form action="/logout" method="post">
+<!-- SUPER SUPER IMPORTANT specify name attribute - otherwise not sent to server-->
+  <button type="submit">Logout</button>
+</form>
+
